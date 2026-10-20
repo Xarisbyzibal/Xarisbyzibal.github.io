@@ -1,0 +1,18 @@
+{
+  "available": true,
+  "can_build": false,
+  "designs": [
+    {
+      "id": "default",
+      "slug": "GoldHEN",
+      "default": true,
+      "bin": "goldhen.bin"
+    },
+    {
+      "id": "drapeau",
+      "slug": "Mon Drapeau",
+      "default": false,
+      "bin": "goldhen.bin"
+    }
+  ]
+}
