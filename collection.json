@@ -10,7 +10,7 @@
     },
     {
       "id": "drapeau",
-      "slug": "Mon Drapeau",
+      "slug": "0001",
       "default": false,
       "bin": "goldhen.bin"
     }
