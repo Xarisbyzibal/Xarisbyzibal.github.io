@@ -1254,7 +1254,7 @@
           .catch(function () {});
       }
     }
-    return false;
+    return true;
   }
 
   checkAlreadyJailbroken();
@@ -1652,7 +1652,7 @@
   function say(text) { window.barSay(text, "picker"); }
 
   var PER = 42;              // 6 across, 7 deep: the row the search box used
-  var all = [], canBuild = false, busy = false;
+  var all = [], canBuild = true, busy = true;
   var BLANK = "data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7";
 
   function find(id) {
